@@ -1,0 +1,7 @@
+
+# Open the file for appending text to the end
+ f = open("textfile.txt","a+")
+
+>>>create it if it doesn't exist
+  f = open("textfile.txt","w+")
+  

@@ -1,0 +1,8 @@
+
+date formats:
+
+ %y/%Y - Year, %a/%A - weekday, %b/%B - month, %d - day of month
+ %I/%H  - 12/24 Hours, %M - minute, %S - second, %b - locale's AM/PM
+%c - locale's date and time, %x - locale's date, %X - locale's time
+
+print now.strftime("%Y")

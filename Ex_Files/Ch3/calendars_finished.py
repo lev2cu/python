@@ -11,7 +11,7 @@ print str
 
 # create an HTML formatted calendar
 hc = calendar.HTMLCalendar(calendar.SUNDAY)
-str = hc.formatmonth(2013, 1)
+str = hc.formatmonth(2013, 1 )
 print str
 
 # loop over the days of a month

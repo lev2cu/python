@@ -20,3 +20,7 @@ To get the index and the item:
 for i, d in enumerate():
 >>>> gets the index in i
 
+To import:
+from datetime import date
+>>>from package import parameter 
+ 
