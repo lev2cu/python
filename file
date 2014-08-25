@@ -2,6 +2,11 @@
 # Open the file for appending text to the end
  f = open("textfile.txt","a+")
 
->>>create it if it doesn't exist
-  f = open("textfile.txt","w+")
-  
++ create file if doesnt exist;"w+" - write; "r" - read
+ 
+#read / read individual lines into a list
+f.read() / f.readlines():
+
+#get the path and the file name seperately for manipulation
+print("state1" + str(path.split(path.realpath("file_name.txt"))))
+>>> from os import path

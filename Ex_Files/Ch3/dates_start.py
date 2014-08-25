@@ -3,12 +3,14 @@ from datetime import date
 from datetime import time
 from datetime import datetime
 
-# print today's date
-print "today is: " + str(datetime.now())
+
 
 today = date.today()  # get today's date
-m = date(today.year, 10, 1)  
-time_to_afd = abs(m - today)
-print time_to_afd.days, "days until m Day!"
+get_red = date(today.year, 10, 3)
+get4m = abs(get_red - today)
+print "Getting ready to fly: ", get4m
 
+md  = date(today.year, 10, 10)
+tim4m = abs(md - today)
+print "getting everything done:",tim4m
 
