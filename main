@@ -1,0 +1,4 @@
+when this file of Python code is loaded and the Python interpreter has assigned the underscore underscore name property the value of main that means that this Python program was executed as a main program.
+
+if __name__ == "__main__":
+ main()

@@ -1,0 +1,22 @@
+if():
+ "state1"
+	elif:
+	 "state2"
+		else:
+		 "state3"
+>>>> it can also be writen with a single line code
+
+result = "state1" if (x<y) else "state2"
+
+
+
+For loops:-
+
+for x in range(5,10):
+   "state1"
+>>> ranges from 5 until 9 for range(5,9)
+
+To get the index and the item:
+for i, d in enumerate():
+>>>> gets the index in i
+
