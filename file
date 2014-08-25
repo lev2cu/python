@@ -10,3 +10,19 @@ f.read() / f.readlines():
 #get the path and the file name seperately for manipulation
 print("state1" + str(path.split(path.realpath("file_name.txt"))))
 >>> from os import path
+
+# rename
+os.rename("old_file.txt","newfile.txt")
+
+import shutil
+# copy permisions
+shutil.copystat(sr,dst)
+
+#zip archive the whole folder
+shutil.make_archive("archive_name", "zip", roo_dir)
+
+from shutil import make_archive
+# zip only mentioned file instead of whole dir
+with ZipFile("zip_name.zip","w") as newzip:
+newzip.write("newfile.txt")
+

@@ -11,6 +11,9 @@ def main():
     print "path =" + str(path.realpath("textfile2.txt"))
     
     print "real path = " + str(path.split(path.realpath("textfile.txt")))
+    
+    
       
 if __name__ == "__main__":
   main()
+  
